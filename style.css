@@ -5,7 +5,7 @@ body{
  }
  h1{
      text-align: center;
-     background-color: #2e86de;
+     background-color: #222f3e;
      color: white;
      padding: 10px;
      margin: 0px;
@@ -13,14 +13,36 @@ body{
  #text-box{
      font-size: 25px;
      width: 99.5%;
-     border-color: #2e86de;
+     border-color: #222f3e;
  }
  p{
      text-align: center;
-     background-color: #2e86de;
+     background-color: #222f3e;
      font-size: 25px;
      font-weight: bold;
      color: white;
      padding: 10px;
      margin: -4px;
  }
+
+
+ @media screen and (max-width: 768px){
+    body{
+        padding: 50px 50px;    
+ }
+}
+/* responsive ipad pro  */
+@media screen and (max-width: 1024px){
+    body{
+        padding: 50px 70px;    
+ }
+}
+/* responsive mobile phone */
+@media screen and (max-width: 500px){
+    body{
+        padding: 100px 10px;    
+ }
+ h1{
+    font-size: 25px;
+ }
+}
