@@ -25,19 +25,19 @@ body{
      margin: -4px;
  }
 
-
- @media screen and (max-width: 768px){
+ /* Responsive ipad */
+ @media scReen and (max-width: 768px){
     body{
         padding: 50px 50px;    
  }
 }
-/* responsive ipad pro  */
+/* Responsive ipad pro  */
 @media screen and (max-width: 1024px){
     body{
         padding: 50px 70px;    
  }
 }
-/* responsive mobile phone */
+/* Responsive mobile phone */
 @media screen and (max-width: 500px){
     body{
         padding: 100px 10px;    
